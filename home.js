@@ -25,7 +25,7 @@ function drawingBoardGame() {
             }
             html += `<div class="square ${className}">`;
             if (BOARD[x][y].girl) {
-                html += '<img class="game-piece" src="./images/girl.jpg">';
+                html += '<img class="game-piece" src="./images/glove.jpg">';
             } else if (BOARD[x][y].ball) {
                 html += '<img class="game-piece" src="./images/ball.jpeg">'
             };
