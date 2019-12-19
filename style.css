@@ -16,7 +16,6 @@ div.dark {
 }
 
 img.game-piece {
-    max-width: 100px;
-    height: 100px;
+    max-width: 99%;
     border-radius: 50%;
 }
