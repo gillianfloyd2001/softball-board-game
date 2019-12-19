@@ -1,5 +1,5 @@
 div.row{
-    display: flex;
+    display: flex;   
 }
 
 div.square{
@@ -15,7 +15,12 @@ div.dark {
     background-color: darkgrey;
 }
 
+img {
+    position: relative;
+}
+
 img.game-piece {
     max-width: 99%;
     border-radius: 50%;
+    overflow: hidden;
 }
